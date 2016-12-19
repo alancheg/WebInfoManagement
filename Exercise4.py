@@ -68,7 +68,9 @@ if __name__ == '__main__':
 
     file_dict = generate_dict()
     print('and query')
+    print('include x and y')
     and_query(file_dict)
 
     print('and not query')
+    print('include x and y and not include z')
     and_not_query(file_dict)
